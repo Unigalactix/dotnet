@@ -22,7 +22,7 @@ If you're new to .NET, this section will help you get up and running quickly.
 
 - **Windows**: Download and install the [.NET SDK](https://dotnet.microsoft.com/download)
 - **macOS**: Install via Homebrew `brew install --cask dotnet-sdk` or download from [.NET SDK](https://dotnet.microsoft.com/download)
-- **Linux**: Follow the [installation guide for your distribution](https://docs.microsoft.com/dotnet/core/install/linux)
+- **Linux**: Follow the [installation guide for your distribution](https://learn.microsoft.com/dotnet/core/install/linux)
 
 Verify your installation:
 ```bash
@@ -101,9 +101,9 @@ dotnet publish -c Release
 
 ### Next Steps
 
-- Explore the [official .NET documentation](https://docs.microsoft.com/dotnet/)
-- Try the [interactive C# tutorials](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/tutorials/)
-- Learn about [ASP.NET Core](https://docs.microsoft.com/aspnet/core/)
+- Explore the [official .NET documentation](https://learn.microsoft.com/dotnet/)
+- Try the [interactive C# tutorials](https://learn.microsoft.com/dotnet/csharp/tour-of-csharp/tutorials/)
+- Learn about [ASP.NET Core](https://learn.microsoft.com/aspnet/core/)
 - Join the [.NET community on Discord](https://dotnetfoundation.org/socialize/discord)
 
 ## Finding .NET Open Source Projects
