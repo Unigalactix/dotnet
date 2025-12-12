@@ -56,7 +56,7 @@ cd MyWebApi
 # Run the API
 dotnet run
 
-# Visit https://localhost:5001/swagger in your browser
+# Visit http://localhost:5000/swagger or https://localhost:5001/swagger in your browser
 ```
 
 #### 3. Create an ASP.NET Core Web App
@@ -71,7 +71,7 @@ cd MyWebApp
 # Run the web app
 dotnet run
 
-# Visit https://localhost:5001 in your browser
+# Visit http://localhost:5000 or https://localhost:5001 in your browser
 ```
 
 ### Useful CLI Commands
