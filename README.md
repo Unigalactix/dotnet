@@ -53,10 +53,11 @@ dotnet new webapi -n MyWebApi
 # Navigate to the project directory
 cd MyWebApi
 
-# Run the API
+# Run the API (check console output for the actual URL)
 dotnet run
 
-# Visit http://localhost:5000/swagger or https://localhost:5001/swagger in your browser
+# The console will show URLs like: http://localhost:5000 or https://localhost:5001
+# Open the Swagger UI at: [URL]/swagger
 ```
 
 #### 3. Create an ASP.NET Core Web App
@@ -68,10 +69,10 @@ dotnet new webapp -n MyWebApp
 # Navigate to the project directory
 cd MyWebApp
 
-# Run the web app
+# Run the web app (check console output for the actual URL)
 dotnet run
 
-# Visit http://localhost:5000 or https://localhost:5001 in your browser
+# The console will show URLs like: http://localhost:5000 or https://localhost:5001
 ```
 
 ### Useful CLI Commands
