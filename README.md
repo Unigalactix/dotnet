@@ -14,6 +14,99 @@ This repository is not an official .NET or .NET Framework support location, howe
 
 Please contribute to this repository via [pull requests](https://github.com/Microsoft/dotnet/pulls)
 
+## Getting Started with .NET
+
+If you're new to .NET, this section will help you get up and running quickly.
+
+### Prerequisites
+
+- **Windows**: Download and install the [.NET SDK](https://dotnet.microsoft.com/download)
+- **macOS**: Install via Homebrew `brew install --cask dotnet-sdk` or download from [.NET SDK](https://dotnet.microsoft.com/download)
+- **Linux**: Follow the [installation guide for your distribution](https://learn.microsoft.com/dotnet/core/install/linux)
+
+Verify your installation:
+```bash
+dotnet --version
+```
+
+### Quick Start Examples
+
+#### 1. Create a Console Application
+
+```bash
+# Create a new console app
+dotnet new console -n MyFirstApp
+
+# Navigate to the project directory
+cd MyFirstApp
+
+# Run the application
+dotnet run
+```
+
+#### 2. Create a Web API
+
+```bash
+# Create a new Web API project
+dotnet new webapi -n MyWebApi
+
+# Navigate to the project directory
+cd MyWebApi
+
+# Run the API (check console output for the actual URL)
+dotnet run
+
+# The console will show URLs like: http://localhost:5000 or https://localhost:5001
+# Open the Swagger UI at: [URL]/swagger
+```
+
+#### 3. Create an ASP.NET Core Web App
+
+```bash
+# Create a new web application
+dotnet new webapp -n MyWebApp
+
+# Navigate to the project directory
+cd MyWebApp
+
+# Run the web app (check console output for the actual URL)
+dotnet run
+
+# The console will show URLs like: http://localhost:5000 or https://localhost:5001
+```
+
+### Useful CLI Commands
+
+```bash
+# List all available project templates
+dotnet new list
+
+# Create a new solution
+dotnet new sln -n MySolution
+
+# Add a project to a solution
+dotnet sln add MyProject/MyProject.csproj
+
+# Restore dependencies
+dotnet restore
+
+# Build your project
+dotnet build
+
+# Run tests
+dotnet test
+
+# Publish your application
+dotnet publish -c Release
+```
+
+### Next Steps
+
+- Explore the [official .NET documentation](https://learn.microsoft.com/dotnet/)
+- Try the [interactive C# tutorials](https://learn.microsoft.com/dotnet/csharp/tour-of-csharp/tutorials/)
+- Learn about [ASP.NET Core](https://learn.microsoft.com/aspnet/core/)
+- Join the [.NET community on Discord](https://dotnetfoundation.org/socialize/discord)
+
 ## Finding .NET Open Source Projects
 
 Here are some excellent community-maintained lists of projects & libraries:
